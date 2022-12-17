@@ -1,0 +1,212 @@
+@media (min-width: 320px) and (max-width: 480px){
+    .zone-item{
+        width: 100%;
+        overflow: hidden;
+    }
+    .zone-left,
+    .zone-right{
+        display: none;
+    }
+    .zone-middle{
+        width: 100%!important;
+    }
+    .head .head-top,
+    .head .head-menu{
+        display: none;
+    }
+    .head .head-second{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+    }
+    .head .logo{
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .head .close-menu{
+        display: block;
+    }
+    
+    /* main */
+    .main .banner{
+        margin-top: 10px;
+        padding: 8px;
+    }
+    .main .ban-img{
+        width: 100%;
+    }
+    .main .club{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .main .iwin-club{
+        width: 100%;
+    }
+    /* marquee */
+    html { font-size: 15px; }
+    :root {
+      --marquee-width: 100vw;
+      /* --marquee-height: 40vh; */
+      --marquee-elements-displayed: 3;
+    }
+    .marquee:before, .marquee:after { width: 5rem; }
+    
+    /* Các trò chơi cá cược khác */
+    .main .cards{
+        --columns: 2;
+        width: 100%;
+        padding: 0;
+    }
+    /* download */
+    .main .down{
+        display: flex;
+        flex-direction: column;
+    }
+    .main .down-item{
+        width: 100%;
+    }
+    /* footer */
+    .footer .footer-content{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer .footer-item{
+        width: 100%;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px){
+    .zone-item{
+        width: 100%;
+        overflow: hidden;
+    }
+    .zone-left,
+    .zone-right{
+        display: none;
+    }
+    .zone-middle{
+        width: 100%!important;
+    }
+    .head .head-top,
+    .head .head-menu{
+        display: none;
+    }
+    .head .head-second{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+    }
+    .head .logo{
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .head .close-menu{
+        display: block;
+    }
+    /* main */
+    .main .banner{
+        margin-top: 10px;
+        padding: 8px;
+    }
+    .main .ban-img{
+        width: 100%;
+    }
+    .main .club{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .main .iwin-club{
+        width: 100%;
+    }
+    .main .iwin-img{
+        width: 50%;
+    }
+    /* marquee */
+    html { font-size: 15px; }
+    :root {
+      --marquee-width: 100vw;
+      /* --marquee-height: 40vh; */
+      --marquee-elements-displayed: 3;
+    }
+    .marquee:before, .marquee:after { width: 5rem; }
+    
+    /* Các trò chơi cá cược khác */
+    .main .cards{
+        --columns: 3;
+        width: 100%;
+        padding: 0;
+    }
+    /* footer */
+    .footer .footer-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer .footer-item{
+        width: 60%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1025px){
+    .zone-item{
+        width: 100%;
+        overflow: hidden;
+    }
+    .zone-left,
+    .zone-right{
+        display: none;
+    }
+    .zone-middle{
+        width: 100%!important;
+    }
+    .head .head-top,
+    .head .head-menu{
+        display: none;
+    }
+    .head .head-second{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+    }
+    .head .logo{
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .head .close-menu{
+        display: block;
+    }
+    /* main */
+    .main .banner{
+        margin-top: 10px;
+        padding: 8px;
+    }
+    .main .ban-img{
+        width: 100%;
+    }
+    .main .iwin-img{
+        width: 100%;
+    }
+    /* marquee */
+    html { font-size: 15px; }
+    :root {
+      --marquee-width: 100vw;
+      /* --marquee-height: 40vh; */
+      --marquee-elements-displayed: 3;
+    }
+    .marquee:before, .marquee:after { width: 5rem; }
+    
+    /* Các trò chơi cá cược khác */
+    .main .cards{
+        --columns: 4;
+        width: 100%;
+        padding: 0;
+    }
+}
